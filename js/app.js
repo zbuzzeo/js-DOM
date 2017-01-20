@@ -41,4 +41,4 @@ Append this div element to the aliasBox div.*/
 
 
 //Final Boss
-/*9. Create your own profile.*/
+/*8. Create your own profile.*/
