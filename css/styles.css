@@ -1,0 +1,69 @@
+body{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+}
+
+header, #footer{
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/59/67/b9/5967b95bf7ded46e9249cc919d593299.jpg");
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  opacity: 0.8;
+}
+
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  color: #0000ff;
+  font-family: 'Bungee Shade', cursive;
+
+
+}
+
+.row{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+
+#name1, #position1, #alias1, #bio1 {
+  text-align: center;
+}
+
+#name2, #position2, #alias2, #bio2 {
+  text-align: center;
+}
+
+#name3, #position3, #alias3, #bio3 {
+  text-align: center;
+}
+
+.name, .position, .alias, .profile{
+  text-align: center;
+}
+
+#name7, #position7, #alias7, #bio7 {
+  text-align: center;
+}
+
+#name8, #position8, #alias8, #bio8 {
+  text-align: center;
+}
+
+#name9, #position9, #alias9, #bio9 {
+  text-align: center;
+}
