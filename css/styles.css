@@ -46,12 +46,9 @@ img{
 }
 
 img:hover{
-  /*height: 160px;
-  width: 160px;*/
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-
 
 #name1, #position1, #alias1, #bio1 {
   text-align: center;
