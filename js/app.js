@@ -97,8 +97,36 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
+var aliasParent = document.getElementById('aliasParent');
+var newDivAlias8 = document.createElement('div');
 
+newDivAlias8.id = 'alias8';
+newDivAlias8.innerHTML = 'Old Man Riverwalk';
+
+aliasParent.appendChild(newDivAlias8);
+
+spacer(8);
+console.log(newDivAlias8);
 
 //Final Boss
 /*9. Create your own profile.*/
+
+var getParentDiv = document.getElementsByClassName('block3 col-sm-4');
+var getTravisScott = getParentDiv[2];
+var newImg = document.getElementById('img9');
+var newDivName = document.createElement('div');
+var newDivAlias = document.createElement('div');
+var newDivBio = document.createElement('div');
+
+newImg.src = '../assets/travis\ scott\ belt\ head\ ass.jpg';
+newDivName.id = 'name9';
+newDivName.innerHTML = 'Travis $cott';
+newDivAlias.id = 'alias9';
+newDivAlias.innerHTML = 'ASTROTHUNDER';
+newDivBio.id = 'bio9';
+newDivBio.innerHTML = 'Interviewer: How do you keep your pants up while you\'re performing? It\'s incredible!\nTravis $cott: Belt';
+
+getTravisScott.appendChild(newDivName);
+getTravisScott.appendChild(newDivAlias);
+getTravisScott.appendChild(newDivBio);
 
