@@ -36,8 +36,12 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
+var getDivAlias3 = document.getElementById('alias3');
 
+getDivAlias3.innerHTML = 'Concatenation';
 
+spacer(3);
+console.log(getDivAlias3.innerHTML);
 
 /*4. Prince
 
