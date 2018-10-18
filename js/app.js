@@ -47,7 +47,9 @@ console.log(getDivAlias3.innerHTML);
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
+var getDivProfile = document.getElementsByClassName('profile');
 
+getDivProfile[0].innerHTML = 'I never wanted to be your weekend lover, I only wanted to be some kind of friend';
 
 /*5. Bruce Lee
 
