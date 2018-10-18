@@ -67,7 +67,12 @@ console.log(getDivProfile[1].innerHTML);
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
+var getDivAlias = document.getElementsByClassName('alias');
 
+getDivAlias[2].innerHTML = 'Kong: Skull Island';
+
+spacer(6);
+console.log(getDivAlias[0].innerHTML);
 
 /*7. Peter Griffin
 
