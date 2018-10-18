@@ -80,7 +80,16 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
+var nameParent = document.getElementById('nameParent');
+var newDivName7 = document.createElement('div');
 
+newDivName7.id = 'name7';
+newDivName7.innerHTML = 'Peter Griffin';
+
+nameParent.appendChild(newDivName7);
+
+spacer(7);
+console.log(newDivName7);
  
 /*8. Tim Duncan
 
