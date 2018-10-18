@@ -23,6 +23,12 @@ Find the div with the id of "position2" and replace the n/a with the following:
 
 Project Manager*/
 
+var getDivPosition2 = document.getElementById('position2');
+
+getDivPosition2.innerHTML = 'Project Manager';
+
+spacer(2);
+console.log(getDivPosition2.innerHTML);
 
 /*3. Piko Taro
 
