@@ -1,11 +1,21 @@
 /*Use the Document Object Model (DOM) to complete the following exercises below:*/
 
+function spacer(exerciseNum){
+      console.log('\nExercise:', exerciseNum);
+}
+
 /*1. Taylor Swift
 
 Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
 
+var getDivName1 = document.getElementById('name1');
+
+getDivName1.innerHTML = 'Tay-Tay';
+
+spacer(1);
+console.log(getDivName1.innerHTML);
 
 /*2. DJ Khaled
 
