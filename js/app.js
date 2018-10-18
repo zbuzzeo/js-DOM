@@ -51,11 +51,17 @@ var getDivProfile = document.getElementsByClassName('profile');
 
 getDivProfile[0].innerHTML = 'I never wanted to be your weekend lover, I only wanted to be some kind of friend';
 
+spacer(4);
+console.log(getDivProfile[0].innerHTML);
+
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+getDivProfile[1].innerHTML = 'Knowing is not enough, we must apply. Willing is not enough, we must do.';
 
+spacer(5);
+console.log(getDivProfile[1].innerHTML);
 
 /*6. Samuel L Jackson
 
